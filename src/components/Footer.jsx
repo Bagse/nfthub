@@ -41,9 +41,9 @@ export function Footer() {
           <div>
             <h3 className="font-bold pb-3 text-lg">Community</h3>
             <li className="flex flex-col gap-2 text-[#7B7583] font-medium">
-              <a href="#how-it-works">How it works!</a>
-              <a href="#blockchain">Blockchain</a>
-              <a href="#get-in-touch">Get in touch</a>
+              <a href="#how-it-works" className="hover:underline">How it works!</a>
+              <a href="#blockchain" className="hover:underline">Blockchain</a>
+              <a href="#get-in-touch" className="hover:underline">Get in touch</a>
             </li>
           </div>
         </div>

@@ -16,9 +16,9 @@ export function Main() {
 
         <div className="flex gap-2 items-center py-5">
           <img
-            src="./images/e-users.png"
+            src="./images/e-users.webp"
             className="w-24 h-12 object-cover"
-            alt=""
+            alt="3 user avatars in circles of colors"
           />
           <div className="flex flex-col">
             <span className="font-bold text-2xl">47k+</span>
@@ -27,7 +27,7 @@ export function Main() {
         </div>
       </div>
       <div>
-        <img src="./images/hero.png" className="w-[800px] h-[450px] object-cover" alt="" />
+        <img src="./images/hero.webp" className="w-[800px] h-[450px] object-cover" alt="Two squares with vivid colors separated" />
       </div>
     </section>
   );

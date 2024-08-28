@@ -6,7 +6,7 @@ import { WalletIcon } from "./icons/WalletIcon";
 export function Navbar() {
   return (
     <header className="flex justify-between items-center place-content-center px-72 py-5">
-      <img src="./images/logo.png" className="w-32 h-10" alt="Logo NFTHub" />
+      <img src="./images/logo.webp" className="w-32 h-10" alt="NTFHub logo icon" />
       <nav className="font-bold space-x-7">
         <a href="">Home</a>
         <a href="">Collection</a>

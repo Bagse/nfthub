@@ -1,16 +1,18 @@
 import { Footer } from "./Footer";
 import { Main } from "./Main";
 import { Navbar } from "./Navbar";
+import { Wallets } from "./Wallets";
 
-export function Layout({children}) {
+export function Layout({ children }) {
   return (
     <div>
-        <div className="bg-[url('./images/background.jpg')] object-cover">
+      <div className="bg-[url('./images/background.jpg')] object-cover banner">
         <Navbar />
         <Main />
-        </div>
-        {children}
-        <Footer />
+      </div>
+      <Wallets />
+      {children}
+      <Footer />
     </div>
-  )
+  );
 }

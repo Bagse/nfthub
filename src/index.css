@@ -3,16 +3,18 @@
 @tailwind utilities;
 
 :root {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   color-scheme: light dark;
-  color: #0F051D;
-  background-color: #FFFFFF;
+  color: #0f051d;
+  background-color: #ffffff;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-li{
+.banner {
+  mask-image: linear-gradient(black 80%, transparent);
+}
+li {
   list-style: none;
 }

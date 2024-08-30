@@ -11,7 +11,7 @@ export function Layout({ children }) {
         <Main />
       </div>
       <Wallets />
-      {children}
+      <div className="px-72 py-2">{children}</div>
       <Footer />
     </div>
   );

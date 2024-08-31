@@ -2,6 +2,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { ChevronLeft } from "./icons/ChevronLeft";
 import { ChevronRight } from "./icons/ChevronRight";
+import { Button } from "./Button";
+import { ArrowUpRight } from "./icons/ArrowUpRight";
 
 // Componente para la flecha izquierda personalizada
 const CustomLeftArrow = ({ onClick }) => {
@@ -34,7 +36,7 @@ export function Collection() {
     {
       name: "#Metaverse",
       author: "By TheSalvare",
-      image: "./images/art_01.webp"
+      image: "./images/art_01.webp",
     },
     {
       name: "#Polly Doll",
@@ -81,17 +83,16 @@ export function Collection() {
     },
   };
   return (
-    <div className="flex gap-5">
+    <div>
       <Carousel
         responsive={responsive}
         swipeable={true}
-        draggable={false}
         infinite={true}
         partialVisible={true}
         autoPlay={true}
         autoPlaySpeed={5000}
         showDots={true}
-        className="py-12"
+        className="py-14"
         customLeftArrow={<CustomLeftArrow />}
         customRightArrow={<CustomRightArrow />}
       >
@@ -103,12 +104,17 @@ export function Collection() {
               className="rounded-2xl w-[200px] h-[300px] object-cover"
             />
             <h2 className="font-bold text-center text-xl">{name}</h2>
-            <p className="text-[#7B7583] text-sm text-center -mt-1">
-              {author}
-            </p>
+            <p className="text-[#7B7583] text-sm text-center -mt-1">{author}</p>
           </div>
         ))}
       </Carousel>
+      <div className="flex place-content-center py-10">
+        <Button title="View collection" rIcon={<ArrowUpRight />} />
+      </div>
+
+      <div className="flex place-content-center py-14">
+        <img src="./icons/vector-triangulo.svg" alt=" purple vector" />
+      </div>
     </div>
   );
 }

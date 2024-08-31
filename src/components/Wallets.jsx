@@ -1,6 +1,6 @@
 export function Wallets() {
   return (
-    <div className="px-72 py-10">
+    <div className="px-72 py-20">
       <div className="flex justify-center gap-9 items-center">
         <div className="flex items-center gap-1">
           <img
@@ -42,7 +42,7 @@ export function Wallets() {
           <span className="font-semibold text-xl tracking-widest">EXODUS</span>
         </div>
       </div>
-      <div className="flex place-content-center py-20">
+      <div className="flex place-content-center pt-24">
         <img src="./icons/vector-triangulo.svg" alt=" purple vector" />
       </div>
     </div>

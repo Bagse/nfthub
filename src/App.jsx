@@ -10,6 +10,7 @@ import "@fontsource/poppins/900.css";
 import { Layout } from "./components/Layout";
 import { SectionContainer } from "./components/SectionContainer";
 import { Collection } from "./components/Collection";
+import { Choose } from "./components/Choose";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       <Layout>
         <SectionContainer title="Nfthub's" title2="collection" >
           <Collection />
+        </SectionContainer>
+        <SectionContainer title="Why" title2="choose us?" >
+          <Choose />
         </SectionContainer>
       </Layout>
     </div>

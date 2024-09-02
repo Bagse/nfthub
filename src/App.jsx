@@ -11,6 +11,7 @@ import { Layout } from "./components/Layout";
 import { SectionContainer } from "./components/SectionContainer";
 import { Collection } from "./components/Collection";
 import { Choose } from "./components/Choose";
+import { SectionStatistics } from "./components/SectionStatistics";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <SectionContainer title="Why" title2="choose us?" >
           <Choose />
         </SectionContainer>
+        <SectionStatistics />
       </Layout>
     </div>
   );

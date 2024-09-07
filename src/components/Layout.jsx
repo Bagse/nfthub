@@ -6,7 +6,7 @@ import { Wallets } from "./Wallets";
 export function Layout({ children }) {
   return (
     <div>
-      <div className="bg-[url('./images/background.jpg')] object-cover banner">
+      <div className="bg-gradient-to-r from-[#FFF5EC] to-[#E8FAFF] banner">
         <Navbar />
         <Main />
       </div>

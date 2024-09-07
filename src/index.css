@@ -14,8 +14,6 @@
 }
 .banner {
   mask-image: linear-gradient(black 80%, transparent);
-  background-image: url('./images/background.jpg');
-  background-size: cover;
 }
 li {
   list-style: none;

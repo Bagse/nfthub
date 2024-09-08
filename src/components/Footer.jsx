@@ -56,7 +56,7 @@ export function Footer() {
               href="https://www.linkedin.com/in/aashifasheikh12/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium bg-gradient-to-r from-[#2600FC] to-[#FF00EA] bg-clip-text text-transparent"
+              className="font-medium bg-gradient-to-r from-[#6500F7] to-[#FF00EA] bg-clip-text text-transparent"
             >
               Aashifa
             </a>{" "}

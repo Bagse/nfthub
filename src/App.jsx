@@ -13,21 +13,23 @@ import { Collection } from "./components/Collection";
 import { Choose } from "./components/Choose";
 import { SectionStatistics } from "./components/SectionStatistics";
 import { Works } from "./components/Works";
+import { SubscribeForm } from "./components/SubscribeForm";
 
 function App() {
   return (
     <div className="">
       <Layout>
-        <SectionContainer title="Nfthub's" title2="collection" >
+        <SectionContainer title="Nfthub's" title2="collection">
           <Collection />
         </SectionContainer>
-        <SectionContainer title="Why" title2="choose us?" >
+        <SectionContainer title="Why" title2="choose us?">
           <Choose />
         </SectionContainer>
         <SectionStatistics />
-        <SectionContainer title="How it" title2="works!" >
+        <SectionContainer title="How it" title2="works!">
           <Works />
         </SectionContainer>
+        <SubscribeForm />
       </Layout>
     </div>
   );

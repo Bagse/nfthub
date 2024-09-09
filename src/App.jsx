@@ -15,6 +15,7 @@ import { SectionStatistics } from "./components/SectionStatistics";
 import { Works } from "./components/Works";
 import { SubscribeForm } from "./components/SubscribeForm";
 import { Roadmap } from "./components/Roadmap";
+import { Artists } from "./components/Artists";
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
           <Roadmap />
         </SectionContainer>
         <SectionContainer title="Meet" title2="the artists">
+          <Artists />
+        </SectionContainer>
+        <SectionContainer title="Your questions," title2="answered!">
           
         </SectionContainer>
       </Layout>

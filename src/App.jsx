@@ -14,6 +14,7 @@ import { Choose } from "./components/Choose";
 import { SectionStatistics } from "./components/SectionStatistics";
 import { Works } from "./components/Works";
 import { SubscribeForm } from "./components/SubscribeForm";
+import { Roadmap } from "./components/Roadmap";
 
 function App() {
   return (
@@ -30,6 +31,12 @@ function App() {
           <Works />
         </SectionContainer>
         <SubscribeForm />
+        <SectionContainer title="Nfthub's" title2="Roadmap">
+          <Roadmap />
+        </SectionContainer>
+        <SectionContainer title="Meet" title2="the artists">
+          
+        </SectionContainer>
       </Layout>
     </div>
   );

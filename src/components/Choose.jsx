@@ -37,7 +37,7 @@ export function Choose() {
           pro="mt-8"
         />
       </div>
-      <div className="flex place-content-center py-14">
+      <div className="flex place-content-center py-20">
         <img src="./icons/vector-triangulo.svg" alt=" purple vector" />
       </div>
     </>

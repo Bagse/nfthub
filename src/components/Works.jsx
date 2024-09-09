@@ -36,7 +36,7 @@ export function Works() {
         Recusandae doloremque a officiis quasi autem!"
         />
       </div>
-      <div className="flex place-content-center py-14">
+      <div className="flex place-content-center py-20">
         <img src="./icons/vector-triangulo.svg" alt=" purple vector" />
       </div>
     </>

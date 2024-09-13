@@ -15,7 +15,7 @@ export function SubscribeForm() {
           <input
             type="email"
             name="email"
-            className="rounded-full py-3 px-4 bg-[#F2F2F2] w-96 outline-none"
+            className="rounded-full py-3 px-4 bg-[#F2F2F2] dark:bg-[#3b3246] dark:text-white w-96 outline-none border-white dark:border-[#0f051d]"
             placeholder="Enter your email"
           />
           <button

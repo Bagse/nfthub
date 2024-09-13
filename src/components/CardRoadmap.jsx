@@ -13,10 +13,19 @@ export function CardRoadmap({ phase, title, percent }) {
         our production pipeline for a good quality artworks.
       </p>
       <div className="border-b-2 w-16 my-4"></div>
-      <li className="flex flex-col gap-2 text-xs font-semibold pl-6 pb-2 dark:text-white">
-        <span>Release website and logo</span>
-        <span>Grow community</span>
-        <span>Launch the project</span>
+      <li className="flex flex-col gap-2 text-xs font-semibold pb-2 dark:text-white">
+        <div className="flex items-center gap-2">
+          <img src="./icons/check.svg" alt="check icon" className="w-4 h-4" />
+          <span>Release website and logo</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <img src="./icons/check.svg" alt="check icon" className="w-4 h-4" />
+          <span>Grow community</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <img src="./icons/check.svg" alt="check icon" className="w-4 h-4" />
+          <span>Launch the project</span>
+        </div>
       </li>
     </div>
   );

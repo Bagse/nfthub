@@ -8,14 +8,14 @@ export function Wallets() {
             alt="Metamask logo"
             className="w-8 h-8"
           />
-          <span className="text-xl font-semibold tracking-widest">
+          <span className="text-xl font-semibold tracking-widest dark:text-white">
             METAMASK
           </span>
         </div>
 
         <div className="flex items-center gap-1">
           <img src="./images/bitgo.png" alt="BitGo logo" className="w-5 h-6" />
-          <span className="font-bold text-xl">BitGo.</span>
+          <span className="font-bold text-xl dark:text-white">BitGo.</span>
         </div>
 
         <img
@@ -30,7 +30,7 @@ export function Wallets() {
             className="w-6 h-6"
             alt="Trust Wallet logo"
           />
-          <span className="text-base font-bold">Trust Wallet</span>
+          <span className="text-base font-bold dark:text-white">Trust Wallet</span>
         </div>
 
         <div className="flex items-center gap-1">
@@ -39,7 +39,7 @@ export function Wallets() {
             alt="Exodus logo"
             className="w-6 h-6"
           />
-          <span className="font-semibold text-xl tracking-widest">EXODUS</span>
+          <span className="font-semibold text-xl tracking-widest dark:text-white">EXODUS</span>
         </div>
       </div>
       <div className="flex place-content-center pt-24">

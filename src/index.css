@@ -5,13 +5,17 @@
 :root {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
-  color-scheme: light dark;
   color: #0f051d;
   background-color: #ffffff;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.nfthub {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .banner {
   mask-image: linear-gradient(black 80%, transparent);
 }

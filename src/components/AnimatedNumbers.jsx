@@ -35,8 +35,9 @@ export function AnimatedNumbers({ value, sign, text }) {
                 fontWeight: "bold",
                 transition: "all ease-out",
               }}
+              className="dark:text-white"
             />
-            <span className="font-bold text-5xl">{sign}</span>
+            <span className="font-bold text-5xl dark:text-white">{sign}</span>
           </div>
           <span className="text-[#7B7583] text-xs">{text}</span>
         </>

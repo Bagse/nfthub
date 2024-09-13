@@ -4,7 +4,7 @@ export function ChooseCard({ pro, icon, title, info }) {
       className={`flex flex-col gap-4 border rounded-xl py-5 px-4 w-60 h-72 place-content-center ${pro}`}
     >
       <img src={icon} alt="folder icon" className="w-10 h-10" />
-      <h3 className="font-bold text-xl">
+      <h3 className="font-bold text-xl dark:text-white">
         <span className="block">{title.split(" ")[0]}</span>
         <span className="block">{title.split(" ")[1]}</span>
       </h3>

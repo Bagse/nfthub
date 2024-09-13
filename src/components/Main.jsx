@@ -5,7 +5,7 @@ export function Main() {
   return (
     <section className="px-72 py-20 flex justify-between gap-10 items-center">
       <div className="flex flex-col gap-6">
-        <h1 className="text-5xl font-bold leading-tight">
+        <h1 className="text-5xl font-bold leading-tight dark:text-white">
           High Quality NFT Collection
         </h1>
         <p className="text-[#7B7583] text-lg text-pretty">
@@ -21,7 +21,7 @@ export function Main() {
             alt="3 user avatars in circles of colors"
           />
           <div className="flex flex-col">
-            <span className="font-bold text-2xl">47k+</span>
+            <span className="font-bold text-2xl dark:text-white">47k+</span>
             <span className="text-[#7B7583] text-sm">Community members</span>
           </div>
         </div>

@@ -7,6 +7,7 @@ export function InstagramIcon({ ...props }) {
       y="0px"
       viewBox="0 0 56.7 56.7"
       alt="Instagram Icon"
+      fill="currentColor"
     >
       <g>
         <path

@@ -2,7 +2,7 @@ export function SubscribeForm() {
   return (
     <>
       <div className="flex flex-col gap-3 place-content-center items-center border-2 rounded-3xl p-14 my-10">
-        <h2 className="font-bold text-6xl">
+        <h2 className="font-bold text-6xl dark:text-white">
           Never{" "}
           <span className="bg-gradient-to-r from-[#6500F7] to-[#FF00EA] bg-clip-text text-transparent">
             miss a drop!

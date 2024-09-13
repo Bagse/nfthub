@@ -103,7 +103,7 @@ export function Collection() {
               alt={`${name} NFT`}
               className="rounded-2xl w-[200px] h-[300px] object-cover"
             />
-            <h2 className="font-bold text-center text-xl">{name}</h2>
+            <h2 className="font-bold text-center text-xl dark:text-white">{name}</h2>
             <p className="text-[#7B7583] text-sm text-center -mt-1">{author}</p>
           </div>
         ))}

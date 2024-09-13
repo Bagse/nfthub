@@ -7,13 +7,13 @@ export function CardRoadmap({ phase, title, percent }) {
         </span>
         <img src={percent} alt="" className="w-12 h-12" />
       </div>
-      <h3 className="font-bold text-3xl capitalize">{title}</h3>
+      <h3 className="font-bold text-3xl capitalize dark:text-white">{title}</h3>
       <p className="text-[#7B7583] text-pretty w-[260px]">
         Quality comes first. we took our time to plan out everything and build
         our production pipeline for a good quality artworks.
       </p>
       <div className="border-b-2 w-16 my-4"></div>
-      <li className="flex flex-col gap-2 text-xs font-semibold pl-6 pb-2">
+      <li className="flex flex-col gap-2 text-xs font-semibold pl-6 pb-2 dark:text-white">
         <span>Release website and logo</span>
         <span>Grow community</span>
         <span>Launch the project</span>

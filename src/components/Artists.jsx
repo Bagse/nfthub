@@ -12,12 +12,12 @@ export function Artists() {
             alt=""
             className="w-36 h-36 p-2 border-2 rounded-3xl"
           />
-          <h3 className="font-bold text-xl">Steps Jobs</h3>
+          <h3 className="font-bold text-xl dark:text-white">Steps Jobs</h3>
           <span className="text-[#7B7583] text-sm">Artist</span>
           <div className="flex gap-2 py-2">
-            <TwitterIcon className="w-4 h-4 hover:scale-125 transition-all" />
-            <DiscordIcon className="w-4 h-4 hover:scale-125 transition-all" />
-            <InstagramIcon className="w-4 h-4 hover:scale-125 transition-all" />
+            <TwitterIcon className="w-4 h-4 hover:scale-125 transition-all dark:text-white" />
+            <DiscordIcon className="w-4 h-4 hover:scale-125 transition-all dark:text-white" />
+            <InstagramIcon className="w-4 h-4 hover:scale-125 transition-all dark:text-white" />
           </div>
         </div>
 
@@ -27,12 +27,12 @@ export function Artists() {
             alt=""
             className="w-36 h-36 p-2 border-2 rounded-3xl"
           />
-          <h3 className="font-bold text-xl">Code Rometty</h3>
+          <h3 className="font-bold text-xl dark:text-white">Code Rometty</h3>
           <span className="text-[#7B7583] text-sm">Blockchain</span>
           <div className="flex gap-2 py-2">
-            <TwitterIcon className="w-4 h-4 hover:scale-125 transition-all" />
-            <DiscordIcon className="w-4 h-4 hover:scale-125 transition-all" />
-            <InstagramIcon className="w-4 h-4 hover:scale-125 transition-all" />
+            <TwitterIcon className="w-4 h-4 hover:scale-125 transition-all dark:text-white" />
+            <DiscordIcon className="w-4 h-4 hover:scale-125 transition-all dark:text-white" />
+            <InstagramIcon className="w-4 h-4 hover:scale-125 transition-all dark:text-white" />
           </div>
         </div>
 
@@ -42,12 +42,12 @@ export function Artists() {
             alt=""
             className="w-36 h-36 p-2 border-2 rounded-3xl"
           />
-          <h3 className="font-bold text-xl">Dash Gates</h3>
+          <h3 className="font-bold text-xl dark:text-white">Dash Gates</h3>
           <span className="text-[#7B7583] text-sm">Developer</span>
           <div className="flex gap-2 py-2">
-            <TwitterIcon className="w-4 h-4 hover:scale-125 transition-all" />
-            <DiscordIcon className="w-4 h-4 hover:scale-125 transition-all" />
-            <InstagramIcon className="w-4 h-4 hover:scale-125 transition-all" />
+            <TwitterIcon className="w-4 h-4 hover:scale-125 transition-all dark:text-white" />
+            <DiscordIcon className="w-4 h-4 hover:scale-125 transition-all dark:text-white" />
+            <InstagramIcon className="w-4 h-4 hover:scale-125 transition-all dark:text-white" />
           </div>
         </div>
 
@@ -57,12 +57,12 @@ export function Artists() {
             alt=""
             className="w-36 h-36 p-2 border-2 rounded-3xl"
           />
-          <h3 className="font-bold text-xl">Byte Barra</h3>
+          <h3 className="font-bold text-xl dark:text-white">Byte Barra</h3>
           <span className="text-[#7B7583] text-sm">Marketing</span>
           <div className="flex gap-2 py-2">
-            <TwitterIcon className="w-4 h-4 hover:scale-125 transition-all" />
-            <DiscordIcon className="w-4 h-4 hover:scale-125 transition-all" />
-            <InstagramIcon className="w-4 h-4 hover:scale-125 transition-all" />
+            <TwitterIcon className="w-4 h-4 hover:scale-125 transition-all dark:text-white" />
+            <DiscordIcon className="w-4 h-4 hover:scale-125 transition-all dark:text-white" />
+            <InstagramIcon className="w-4 h-4 hover:scale-125 transition-all dark:text-white" />
           </div>
         </div>
       </div>

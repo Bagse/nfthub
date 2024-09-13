@@ -1,7 +1,7 @@
 export function SectionContainer({ title, title2, children }) {
   return (
     <div className="py-5">
-      <h2 className="flex gap-5 font-bold place-content-center text-5xl">
+      <h2 className="flex gap-5 font-bold place-content-center text-5xl dark:text-white">
         {title}
         <span className="bg-gradient-to-r from-[#6500F7] to-[#FF00EA] bg-clip-text text-transparent">{title2}</span>
       </h2>

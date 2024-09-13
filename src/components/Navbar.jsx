@@ -6,8 +6,8 @@ import { WalletIcon } from "./icons/WalletIcon";
 export function Navbar() {
   return (
     <header className="flex justify-between items-center place-content-center px-72 py-5">
-      <img src="./images/logo.webp" className="w-32 h-10" alt="NTFHub logo icon" />
-      <nav className="font-bold space-x-7">
+      <h1 className="dark:text-white text-2xl font-semibold nfthub">NFTHub</h1>
+      <nav className="font-bold space-x-7 dark:text-white">
         <a href="">Home</a>
         <a href="">Collection</a>
         <a href="">Choose</a>
@@ -21,28 +21,28 @@ export function Navbar() {
           className="lg:hover:scale-110 transition-all"
           alt="Twitter social media icon"
         >
-          <TwitterIcon className="w-5 h-5" />
+          <TwitterIcon className="w-5 h-5 dark:text-white" />
         </a>
         <a
           href="http://"
           className="lg:hover:scale-110 transition-all"
           alt="Discord social media icon"
         >
-          <DiscordIcon className="w-5 h-5" />
+          <DiscordIcon className="w-5 h-5 dark:text-white" />
         </a>
         <a
           href="http://"
           className="lg:hover:scale-110 transition-all"
           alt="Instagram social media icon"
         >
-          <InstagramIcon className="w-5 h-5" />
+          <InstagramIcon className="w-5 h-5 dark:text-white" />
         </a>
         <a
           href="http://"
           className="lg:hover:scale-110 transition-all"
           alt="Wallet icon"
         >
-          <WalletIcon className="w-5 h-5" />
+          <WalletIcon className="w-5 h-5 dark:text-white" />
         </a>
       </div>
     </header>

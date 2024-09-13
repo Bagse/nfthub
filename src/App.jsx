@@ -20,7 +20,7 @@ import { Questions } from "./components/Questions";
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-white dark:bg-[#0f051d]">
       <Layout>
         <SectionContainer title="Nfthub's" title2="collection">
           <Collection />

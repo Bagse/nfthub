@@ -18,19 +18,19 @@ export function Footer() {
           </p>
           <div className="flex gap-3">
             <a href="http://" className="lg:hover:scale-110 transition-all">
-              <TwitterIcon className="w-5 h-5" />
+              <TwitterIcon className="w-5 h-5 dark:text-white" />
             </a>
             <a href="http://" className="lg:hover:scale-110 transition-all">
-              <InstagramIcon className="w-5 h-5" />
+              <InstagramIcon className="w-5 h-5 dark:text-white" />
             </a>
             <a href="http://" className="lg:hover:scale-110 transition-all">
-              <YoutubeIcon className="w-5 h-5" />
+              <YoutubeIcon className="w-5 h-5 dark:text-white" />
             </a>
           </div>
         </div>
         <div className="grid grid-cols-2 gap-20">
           <div>
-            <h3 className="font-bold pb-3 text-lg">Quick Link</h3>
+            <h3 className="font-bold pb-3 text-lg dark:text-white">Quick Link</h3>
             <li className="flex flex-col gap-2 text-[#7B7583] font-medium">
               <a href="#about">About</a>
               <a href="#collection">Collection</a>
@@ -39,7 +39,7 @@ export function Footer() {
             </li>
           </div>
           <div>
-            <h3 className="font-bold pb-3 text-lg">Community</h3>
+            <h3 className="font-bold pb-3 text-lg dark:text-white">Community</h3>
             <li className="flex flex-col gap-2 text-[#7B7583] font-medium">
               <a href="#how-it-works" className="hover:underline">How it works!</a>
               <a href="#blockchain" className="hover:underline">Blockchain</a>

@@ -16,6 +16,7 @@ import { Works } from "./components/Works";
 import { SubscribeForm } from "./components/SubscribeForm";
 import { Roadmap } from "./components/Roadmap";
 import { Artists } from "./components/Artists";
+import { Questions } from "./components/Questions";
 
 function App() {
   return (
@@ -39,7 +40,7 @@ function App() {
           <Artists />
         </SectionContainer>
         <SectionContainer title="Your questions," title2="answered!">
-          
+          <Questions />
         </SectionContainer>
       </Layout>
     </div>

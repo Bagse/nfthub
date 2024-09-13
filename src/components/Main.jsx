@@ -12,7 +12,7 @@ export function Main() {
           A 890 piece custom Nfthub's collection is joining the NFT space on
           Opensea.
         </p>
-        <Button title="View in OPENSEA" rIcon={<ArrowUpRight />} />
+        <Button title="View in OPENSEA" rIcon={<ArrowUpRight />} link="#view-in-opensea" />
 
         <div className="flex gap-2 items-center py-5">
           <img

@@ -109,7 +109,7 @@ export function Collection() {
         ))}
       </Carousel>
       <div className="flex place-content-center py-10">
-        <Button title="View collection" rIcon={<ArrowUpRight />} />
+        <Button title="View collection" rIcon={<ArrowUpRight />} link="#view-collection" />
       </div>
 
       <div className="flex place-content-center py-14">

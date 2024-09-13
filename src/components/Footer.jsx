@@ -4,14 +4,14 @@ import { YoutubeIcon } from "./icons/YoutubeIcon";
 
 export function Footer() {
   return (
-    <footer className="px-72 py-5">
+    <footer className="px-72 py-5 -my-56">
       <div className="flex justify-between">
         <div className="flex flex-col gap-4 w-96">
           <img
             src="./images/logo-morado.png"
             className="w-32 h-5"
             alt="Logo NFTHub"
-          />
+            />
           <p className="text-pretty text-[#7B7583]">
             Join our Discord channel or follow us on Twitter to keep up to date
             with our latest work and announcements.
@@ -57,7 +57,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium bg-gradient-to-r from-[#6500F7] to-[#FF00EA] bg-clip-text text-transparent"
-            >
+              >
               Aashifa
             </a>{" "}
             and developed by{" "}
@@ -66,7 +66,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium bg-gradient-to-r from-[#2600FC] to-[#FF00EA] bg-clip-text text-transparent"
-            >
+              >
               Bagse
             </a>
           </span>

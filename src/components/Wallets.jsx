@@ -1,7 +1,7 @@
 export function Wallets() {
   return (
-    <div className="px-72 py-20">
-      <div className="flex justify-center gap-9 items-center">
+    <div className="px-3 lg:px-72 py-20">
+      <div className="flex flex-wrap lg:flex-nowrap justify-center gap-9 items-center">
         <div className="flex items-center gap-1">
           <img
             src="https://img.icons8.com/color/48/metamask-logo.png"
@@ -30,7 +30,9 @@ export function Wallets() {
             className="w-6 h-6"
             alt="Trust Wallet logo"
           />
-          <span className="text-base font-bold dark:text-white">Trust Wallet</span>
+          <span className="text-base font-bold dark:text-white">
+            Trust Wallet
+          </span>
         </div>
 
         <div className="flex items-center gap-1">
@@ -39,7 +41,9 @@ export function Wallets() {
             alt="Exodus logo"
             className="w-6 h-6"
           />
-          <span className="font-semibold text-xl tracking-widest dark:text-white">EXODUS</span>
+          <span className="font-semibold text-xl tracking-widest dark:text-white">
+            EXODUS
+          </span>
         </div>
       </div>
       <div className="flex place-content-center pt-24">

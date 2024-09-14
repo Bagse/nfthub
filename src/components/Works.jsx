@@ -14,6 +14,7 @@ export function Works() {
         any wallet ipsam temporibus."
         />
         <WorksCard
+          pro="flex-col-reverse lg:flex-row"
           imageRight="./images/features-02.png"
           number="02."
           title="Create your own

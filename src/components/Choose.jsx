@@ -3,7 +3,7 @@ import { ChooseCard } from "./ChooseCard";
 export function Choose() {
   return (
     <>
-      <div className="flex gap-5 py-10">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 py-10 items-center">
         <ChooseCard
           icon="/icons/folder.svg"
           title="Huge Collection"
@@ -18,7 +18,7 @@ export function Choose() {
         includes dozens of rare
         costumes ands colorways
         of artist's."
-          pro="mt-8"
+          pro="mt-0 lg:mt-8"
         />
         <ChooseCard
           icon="/icons/folder2.svg"
@@ -34,7 +34,7 @@ export function Choose() {
           info="Be part of a community of
         nerko owners and create
         user generated items."
-          pro="mt-8"
+          pro="mt-0 lg:mt-8"
         />
       </div>
       <div className="flex place-content-center py-20">

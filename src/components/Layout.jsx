@@ -33,7 +33,7 @@ export function Layout({ children }) {
         <Main />
       </div>
       <Wallets />
-      <div className="px-72 py-2">{children}</div>
+      <div className="lg:px-72 py-2 px-3">{children}</div>
       <Banner />
       <Footer />
     </div>

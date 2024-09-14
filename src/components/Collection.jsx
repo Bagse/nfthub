@@ -10,7 +10,7 @@ const CustomLeftArrow = ({ onClick }) => {
   return (
     <button
       onClick={onClick}
-      className="absolute left-1 top-52 transform -translate-y-1/2 p-2 bg-white z-20 rounded-full shadow-lg hover:scale-105 transition-all hover:bg-gray-200/90"
+      className="absolute left-1 top-64 lg:top-52 transform -translate-y-1/2 p-2 bg-white z-20 rounded-full shadow-lg hover:scale-105 transition-all hover:bg-gray-200/90"
       style={{ zIndex: 10 }}
     >
       <ChevronLeft />
@@ -23,7 +23,7 @@ const CustomRightArrow = ({ onClick }) => {
   return (
     <button
       onClick={onClick}
-      className="absolute right-1 top-52 transform -translate-y-1/2 p-2 bg-white rounded-full shadow-lg hover:scale-105 transition-all hover:bg-gray-200/90"
+      className="absolute right-1 top-64 lg:top-52 transform -translate-y-1/2 p-2 bg-white rounded-full shadow-lg hover:scale-105 transition-all hover:bg-gray-200/90"
       style={{ zIndex: 10 }}
     >
       <ChevronRight />
@@ -101,7 +101,7 @@ export function Collection() {
             <img
               src={image}
               alt={`${name} NFT`}
-              className="rounded-2xl w-[200px] h-[300px] object-cover"
+              className="rounded-2xl w-[340px] h-[400px] lg:w-[200px] lg:h-[300px] object-cover"
             />
             <h2 className="font-bold text-center text-xl dark:text-white">{name}</h2>
             <p className="text-[#7B7583] text-sm text-center -mt-1">{author}</p>

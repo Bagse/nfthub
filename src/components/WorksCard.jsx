@@ -17,7 +17,7 @@ export function WorksCard({
         <img
           src={imageLeft}
           alt={`${title} image`}
-          className="w-[400px] h-[400px]"
+          className="w-[320px] h-[300px] lg:w-[400px] lg:h-[400px]"
         />
       )}
       <div className="flex flex-col gap-4 place-items-center lg:place-items-start">
@@ -44,7 +44,7 @@ export function WorksCard({
         <img
           src={imageRight}
           alt={`${title} image`}
-          className="w-[400px] h-[400px]"
+          className="w-[320px] h-[300px] lg:w-[400px] lg:h-[400px]"
         />
       )}
     </div>

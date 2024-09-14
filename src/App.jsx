@@ -22,24 +22,28 @@ function App() {
   return (
     <div className="bg-white dark:bg-[#0f051d]">
       <Layout>
-        <SectionContainer title="Nfthub's" title2="collection">
+        <SectionContainer title="Nfthub's" title2="collection" pro="text-4xl">
           <Collection />
         </SectionContainer>
-        <SectionContainer title="Why" title2="choose us?">
+        <SectionContainer title="Why" title2="choose us?" pro="text-4xl">
           <Choose />
         </SectionContainer>
         <SectionStatistics />
-        <SectionContainer title="How it" title2="works!">
+        <SectionContainer title="How it" title2="works!" pro="text-4xl">
           <Works />
         </SectionContainer>
         <SubscribeForm />
-        <SectionContainer title="Nfthub's" title2="Roadmap">
+        <SectionContainer title="Nfthub's" title2="Roadmap" pro="text-4xl">
           <Roadmap />
         </SectionContainer>
-        <SectionContainer title="Meet" title2="the artists">
+        <SectionContainer title="Meet" title2="the artists" pro="text-4xl">
           <Artists />
         </SectionContainer>
-        <SectionContainer title="Your questions," title2="answered!">
+        <SectionContainer
+          title="Your questions,"
+          title2="answered!"
+          pro="text-[25px]"
+        >
           <Questions />
         </SectionContainer>
       </Layout>

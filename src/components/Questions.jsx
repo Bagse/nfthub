@@ -8,7 +8,7 @@ export function Questions() {
           id="accordion-flush"
           data-accordion="collapse"
           data-active-classes="bg-white dark:bg-[#0f051d]"
-          className="border-2 rounded-3xl p-8 w-[580px]"
+          className="border-2 rounded-3xl p-4 lg:p-8 w-auto lg:w-[580px]"
         >
           <h2 id="accordion-flush-heading-1">
             <button
@@ -18,7 +18,7 @@ export function Questions() {
               aria-expanded="true"
               aria-controls="accordion-flush-body-1"
             >
-              <span className="font-bold text-xl text-black dark:text-white">
+              <span className="font-bold text-lg lg:text-xl text-black dark:text-white">
                 What is Nfthub's NFT Collection?
               </span>
               <svg
@@ -64,7 +64,7 @@ export function Questions() {
               aria-expanded="false"
               aria-controls="accordion-flush-body-2"
             >
-              <span className="font-bold text-xl text-black dark:text-white">
+              <span className="font-bold text-lg lg:text-xl text-black dark:text-white">
                 How we can buy and invest NFT?
               </span>
               <svg
@@ -106,7 +106,7 @@ export function Questions() {
               aria-expanded="false"
               aria-controls="accordion-flush-body-3"
             >
-              <span className="font-bold text-xl text-black dark:text-white">
+              <span className="font-bold text-lg lg:text-xl text-black dark:text-white text-start">
                 Why we should choose Nerko's NFT?
               </span>
               <svg
@@ -148,7 +148,7 @@ export function Questions() {
               aria-expanded="false"
               aria-controls="accordion-flush-body-4"
             >
-              <span className="font-bold text-xl text-black dark:text-white">
+              <span className="font-bold text-lg lg:text-xl text-black dark:text-white text-start">
                 Where we can buy and sell NFT's?
               </span>
               <svg
@@ -190,7 +190,7 @@ export function Questions() {
               aria-expanded="false"
               aria-controls="accordion-flush-body-5"
             >
-              <span className="font-bold text-xl text-black dark:text-white">
+              <span className="font-bold text-lg lg:text-xl text-black dark:text-white">
                 How secure is this token?
               </span>
               <svg
@@ -232,7 +232,7 @@ export function Questions() {
               aria-expanded="false"
               aria-controls="accordion-flush-body-6"
             >
-              <span className="font-bold text-xl text-black dark:text-white">
+              <span className="font-bold text-lg lg:text-xl text-black dark:text-white">
                 What is your contract address?
               </span>
               <svg

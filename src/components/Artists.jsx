@@ -5,8 +5,8 @@ import { TwitterIcon } from "./icons/TwitterIcon";
 export function Artists() {
   return (
     <>
-      <div className="flex gap-3 py-10 justify-between">
-        <div className="flex flex-col gap-3 items-center py-5 mt-8">
+      <div className="flex gap-3 py-10 justify-between flex-wrap lg:flex-nowrap px-5 lg:px-0">
+        <div className="flex flex-col gap-3 items-center py-5 mt-0 lg:mt-8">
           <img
             src="./images/user1.png"
             alt=""
@@ -36,7 +36,7 @@ export function Artists() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-3 items-center py-5 mt-8">
+        <div className="flex flex-col gap-3 items-center py-5 mt-0 lg:mt-8">
           <img
             src="./images/user3.png"
             alt=""

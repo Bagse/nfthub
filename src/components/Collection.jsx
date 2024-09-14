@@ -101,7 +101,7 @@ export function Collection() {
             <img
               src={image}
               alt={`${name} NFT`}
-              className="rounded-2xl w-[340px] h-[400px] lg:w-[200px] lg:h-[300px] object-cover"
+              className="rounded-2xl w-[310px] h-[400px] lg:w-[200px] lg:h-[300px] object-cover"
             />
             <h2 className="font-bold text-center text-xl dark:text-white">{name}</h2>
             <p className="text-[#7B7583] text-sm text-center -mt-1">{author}</p>

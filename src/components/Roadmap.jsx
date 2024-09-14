@@ -3,7 +3,7 @@ import { CardRoadmap } from "./CardRoadmap";
 export function Roadmap() {
   return (
     <>
-      <div className="grid grid-cols-3 gap-10 py-10">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 py-10 place-items-center">
         <CardRoadmap
           phase="phase 01"
           percent="./icons/0.svg"

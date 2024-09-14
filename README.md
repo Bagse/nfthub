@@ -1,4 +1,6 @@
-# React + Vite
+![image](https://github.com/user-attachments/assets/a14e5135-0cb0-4ff7-9d5e-1d46ee9ae3bd)
+
+# NFTHub
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

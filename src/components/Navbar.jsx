@@ -40,55 +40,78 @@ export function Navbar() {
       >
         <nav className="font-bold lg:space-x-7 dark:text-white flex flex-col lg:flex-row pt-16 lg:pt-0 text-xl lg:text-base gap-3 lg:gap-0">
           <div className="border-b w-full my-2 lg:hidden"></div>
-          <a href="" className="pl-5 lg:pl-0">
+          <a
+            href="#"
+            className="pl-5 lg:pl-0 lg:hover:underline-offset-4 lg:hover:underline"
+          >
             Home
           </a>
           <div className="border-b w-full my-2 lg:hidden"></div>
-          <a href="" className="pl-5 lg:pl-0">
+          <a
+            href="#collection"
+            className="pl-5 lg:pl-0 lg:hover:underline-offset-4 lg:hover:underline"
+            onClick={closeMenu}
+          >
             Collection
           </a>
           <div className="border-b w-full my-2 lg:hidden"></div>
-          <a href="" className="pl-5 lg:pl-0">
+          <a
+            href="#choose"
+            className="pl-5 lg:pl-0 lg:hover:underline-offset-4 lg:hover:underline"
+            onClick={closeMenu}
+          >
             Choose
           </a>
           <div className="border-b w-full my-2 lg:hidden"></div>
-          <a href="" className="pl-5 lg:pl-0">
+          <a
+            href="#works"
+            className="pl-5 lg:pl-0 lg:hover:underline-offset-4 lg:hover:underline"
+            onClick={closeMenu}
+          >
+            Works
+          </a>
+          <div className="border-b w-full my-2 lg:hidden"></div>
+          <a
+            href="#roadmap"
+            className="pl-5 lg:pl-0 lg:hover:underline-offset-4 lg:hover:underline"
+            onClick={closeMenu}
+          >
             Roadmap
           </a>
           <div className="border-b w-full my-2 lg:hidden"></div>
-          <a href="" className="pl-5 lg:pl-0">
+          <a
+            href="#about"
+            className="pl-5 lg:pl-0 lg:hover:underline-offset-4 lg:hover:underline"
+            onClick={closeMenu}
+          >
             About
-          </a>
-          <div className="border-b w-full my-2 lg:hidden"></div>
-          <a href="" className="pl-5 lg:pl-0">
-            Blog
           </a>
           <div className="border-b w-full my-2 lg:hidden"></div>
         </nav>
         <div className="flex gap-5 place-items-center pl-5 lg:pl-0 pt-5 lg:pt-0">
           <a
-            href="http://"
+            href=""
             className="lg:hover:scale-110 transition-all border p-2 rounded-md lg:border-none lg:p-0"
             alt="Twitter social media icon"
           >
             <TwitterIcon className="w-6 lg:w-5 h-6 lg:h-5 dark:text-white" />
           </a>
           <a
-            href="http://"
+            href=""
             className="lg:hover:scale-110 transition-all border p-2 rounded-md lg:border-none lg:p-0"
             alt="Discord social media icon"
           >
             <DiscordIcon className="w-6 lg:w-5 h-6 lg:h-5 dark:text-white" />
           </a>
           <a
-            href="http://"
+            href=""
             className="lg:hover:scale-110 transition-all border p-2 rounded-md lg:border-none lg:p-0"
             alt="Instagram social media icon"
           >
             <InstagramIcon className="w-6 lg:w-5 h-6 lg:h-5 dark:text-white" />
           </a>
           <a
-            href="http://"
+            href=""
             className="lg:hover:scale-110 transition-all border p-2 rounded-md lg:border-none lg:p-0"
             alt="Wallet icon"
           >

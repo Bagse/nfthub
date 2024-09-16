@@ -12,13 +12,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nfthub {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .banner {
   mask-image: linear-gradient(black 80%, transparent);
 }
+
 li {
   list-style: none;
 }

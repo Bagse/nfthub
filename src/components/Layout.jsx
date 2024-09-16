@@ -2,6 +2,7 @@ import { Banner } from "./Banner";
 import { Footer } from "./Footer";
 import { Main } from "./Main";
 import { Navbar } from "./Navbar";
+import { ScrollUpButton } from "./ScrollUpButton";
 import { Wallets } from "./Wallets";
 import { useState, useEffect } from "react";
 
@@ -33,6 +34,7 @@ export function Layout({ children }) {
         <Main />
       </div>
       <Wallets />
+      <ScrollUpButton />
       <div className="lg:px-72 py-2 px-3">{children}</div>
       <Banner />
       <Footer />

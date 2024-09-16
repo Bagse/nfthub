@@ -34,10 +34,18 @@ export function Footer() {
               Quick Link
             </h3>
             <li className="flex flex-col gap-2 text-[#7B7583] font-medium">
-              <a href="#about">About</a>
-              <a href="#collection">Collection</a>
-              <a href="#roadmap">Roadmap</a>
-              <a href="#faqs">FAQs</a>
+              <a href="#about" className="hover:underline">
+                About
+              </a>
+              <a href="#collection" className="hover:underline">
+                Collection
+              </a>
+              <a href="#roadmap" className="hover:underline">
+                Roadmap
+              </a>
+              <a href="#faqs" className="hover:underline">
+                FAQs
+              </a>
             </li>
           </div>
           <div>
